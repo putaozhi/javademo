@@ -14,6 +14,7 @@ public class Test {
 //        String dt = "2019-07-30 14:09:51";
         String dt = "2020-08-26 14:09:51";
         String[] d = dt.split("\\s+");
+        System.out.println("***********************");
         System.out.println(d.length);
         System.out.println("1+1");
 
