@@ -26,6 +26,7 @@ public class TestProduct {
 
         // 按照类目分组：
         Map<String, List<Product>> prodMap= prodList.stream().collect(Collectors.groupingBy(Product::getCategory));
+        System.out.println("===========================修改=======================================");
 
 
         System.out.println(prodMap.toString());
@@ -43,6 +44,6 @@ public class TestProduct {
                 System.out.println(iterator.next().getName());//获取对象
             }
         });
-
+        System.out.println("==============================运行结束==============================================");
     }
 }
