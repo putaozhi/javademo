@@ -41,7 +41,9 @@ public class TestProduct {
             System.out.println(category);
             Iterator<Product> iterator = value.iterator();
             while(iterator.hasNext()){//判断是否有下一个对象
+                System.out.println(iterator.next().getId());//获取对象
                 System.out.println(iterator.next().getName());//获取对象
+                System.out.println(iterator.next().getCategory());//获取对象
             }
         });
         System.out.println("==============================运行结束==============================================");
