@@ -17,6 +17,7 @@ public class ArrayListDemo {
         list.add("stu3");
         list.add("stu4");
         // 获取集合中元素的个数
+        System.out.println("=================开始统计====================");  //添加
         System.out.println("集合的长度：" + list.size());
         // 取出并打印指定位置的元素
         System.out.println("第1个元素是：" + list.get(0));

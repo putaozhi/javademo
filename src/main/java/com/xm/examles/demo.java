@@ -4,23 +4,22 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @ClassName Test
+ * @ClassName demo
  * @Description TODO
- * @Date 2020/8/26 18:15
+ * @Date 2020/8/27 10:32
  */
-public class Test {
+public class demo {
     public static void main(String[] args) {
-        System.out.println("===============================================");
 //        String dt = "2019-07-30 14:09:51";
         String dt = "2020-08-26 14:09:51";
         String[] d = dt.split("\\s+");
-        System.out.println("***********************");
         System.out.println(d.length);
         System.out.println("1+1");
+        System.out.println("===============================================");
 
         // 创建一个Map
         Map<String, Object> infoMap = new HashMap<>();
-        infoMap.put("name", "ll");
+        infoMap.put("name", "mm");
         infoMap.put("site", "www.xxx.xxx");
         infoMap.put("email", "xxx@.qq.com");
 // 传统的Map迭代方式
